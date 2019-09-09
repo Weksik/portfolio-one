@@ -1,0 +1,197 @@
+/*Основные параметры*/
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Хедер */
+
+
+.headerMain {
+	background-color: #f74c55;
+	background-image: url("..//image/background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+}
+
+
+.headerIntro {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.containerBar {
+	display: flex;
+	justify-content: space-between;
+	vertical-align: top;
+	align-items: center;
+}
+
+.logo {
+	margin: 0;
+	padding: 0;
+	font-size: 100px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.navMenu {
+	margin-right: 40px;
+}
+
+.navLink {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-left: 30px;
+	color: #fff;
+}
+
+.navLink:hover {
+	color: #FFEE58;
+	transition: .4s linear;
+}
+
+.mainContainer {
+
+	width: 350px;
+	height: 100px;
+	margin-left: 600px;
+	margin-top: 150px;
+	padding-bottom: 200px;
+}
+
+.mainContainer h1 {
+	font-size: 40px;
+}
+
+.mainContainer p {
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.joinNow {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	border: 3px solid #fff;
+	padding: 10px 30px;
+	margin-top: 30px;
+	border-radius: 15px;
+	transition: .4s linear;
+}
+
+.joinNow:hover {
+	border-color: #FFEE58;
+	color: #FFEE58;
+	box-shadow: 4px 5px 3px #404040;
+}
+
+
+/* About */
+
+.about {
+	color: #000;
+}
+
+.about h2 {
+	margin-top: 50px;
+	margin-bottom: 37px;
+	font-size: 30px;
+}
+
+.about p {
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.about img {
+	padding-bottom: 105px;
+}
+
+/* Преимущества */
+
+.blocks {
+	display: flex;
+	justify-content: center;
+	font-size: 22px;
+	vertical-align: top;
+}
+
+.blocks p {
+	font-size: 14px;
+	line-height: 2;
+}
+
+.seoOptimized {
+	background-color: #404040;
+	padding: 30px;
+}
+
+.responsive {
+	background-color: #f74c55;	
+	padding: 30px;
+}
+
+.cloudServices {
+	background-color: #2d5f3b; 	
+	padding: 30px;
+}
+
+/* Футер */
+
+.footerMain {
+
+	background-image: url("..//image/footer.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 670px;
+}
+
+.footerMain p {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.footerMain span {
+	font-weight: 900;
+}
+
+.fotterBtnBlock{
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	width: 195px;
+	height: 90px;
+	padding-top: 60px;
+}
+
+.footerBtn {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	border: 3px solid #fff;
+	padding: 10px 30px;
+	margin-top: 30px;
+	border-radius: 15px;
+	transition: .4s linear;
+	
+}
